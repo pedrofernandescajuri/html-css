@@ -59,7 +59,8 @@ header > h3 > a{
 
 main {
     background-color: white;
-    margin: 12% 20% auto 20%;
+    margin: 10% 20% auto 20%;
+    padding-top: 2em;
 }
 main > h1{
     font-family: 'Audiowide', cursive;
