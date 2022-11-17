@@ -7,13 +7,13 @@ header {
     width: 99vw;
     height: 18vw;
     margin-top: -6vw;
-    margin-left: -1vw;
+    margin-left: -2vw;
     padding-right: 0vw;
     padding-bottom: 0vw;
 }
 header > h1 {
     font-family: 'Frijole', cursiva;
-    font-size: 7vw;
+    font-size: 9vw;
     padding-top: 4vw;
     padding-left: 27vw;
     height: 5vw;
@@ -21,7 +21,7 @@ header > h1 {
 }
 header > p {
     font-family: 'Frijole', cursiva;
-    font-size: 1.5vw;
+    font-size: 2vw;
     padding-top: 0vw;
     padding-left: 46vw;
     font-family: 'Coustard', serif;
@@ -38,7 +38,7 @@ main > section#primeira > p {
     color: rgb(0, 0, 0);
     height: auto;
     width: 30vw;
-    font-size: 3vw;
+    font-size: 4vw;
     margin-top: 0.8vw;
     margin-right: 0vw;
     margin-left: 0vw;
@@ -64,7 +64,7 @@ main > section#segunda {
         height: auto;
         font-family: 'Times New Roman', Times, serif;
         color: white;
-        font-size: 3vw;
+        font-size: 4vw;
         padding-left: 2vw;
         line-height: 5vw;
         box-shadow: 0px -6px 17px 10px black;
@@ -74,7 +74,7 @@ main > section#segunda {
         color: rgb(0, 0, 0);
         width: 29vw;
         height: auto;
-        font-size: 3vw;
+        font-size: 4vw;
         padding: 2vw;
         line-height: 7vw;
     }
@@ -84,7 +84,7 @@ main > section#segunda {
         height: 45vw;
     }
     main > section#quarta > p {
-        font-size: 3vw;
+        font-size: 4vw;
         background-color: #00000096;
         color: white;
         width: 39vw;
@@ -98,16 +98,16 @@ main > section#segunda {
         color: rgb(0, 0, 0);
         width: 29vw;
         height: auto;
-        font-size: 3vw;
+        font-size: 4vw;
         padding: 2vw;
         line-height: 7vw;
     }
     footer {
         background-color: rgb(0, 0, 0);
         color: white;
-        font-size: 1.5vw;
+        font-size: 2vw;
         text-align: center;
-        margin-bottom: -2vw;
+        margin-bottom: -1vw;
     }
     footer > p > a {
         text-decoration: none;
