@@ -8,27 +8,39 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            
         }
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
             padding: 10px;
         }
-        thead, tfoot {
-            background-color: gray;
-            color: white;
+        thead > tr {
+            background-color: rgb(72, 67, 67);
+            color: rgb(255, 255, 255);
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(20, 232, 136);
         }
         td.num {
             text-align: right;
         }
         caption {
-            font-size: 1.5em;
-            background-color: rgb(172, 0, 0);
+            padding: 8px;
+            font-size: 1.3em;
+            background-color: rgb(20, 232, 136);
             font-weight: bolder;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: rgb(208, 0, 0);
+        }
+        tbody > tr:nth-child(even) {
+            background-color: blue;
         }
     </style>
 </head>
