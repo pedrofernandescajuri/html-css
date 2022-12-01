@@ -8,8 +8,19 @@
 */
 
 @media print {
-    body {
-        background-image: url(../imagens/back-print.jpg);
+    main > h1 {
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+    }
+    main {
+        border: 2px solid black;
+        width: 80vw;
+    }
+    main::after {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.5em;
+        width: 90vw;
+        content: 'Esse impressão foi realizada no site www.Cursoemvídeo.com';
     }
     img#img-phone { display: none; }
     img#img-pc { display: none; }
