@@ -16,4 +16,7 @@
     header > menu#itens > ul > li {
         display: inline-block;
     }
+    main {
+        width: 568px;
+    }
 }
