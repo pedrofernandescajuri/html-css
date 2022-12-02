@@ -1,6 +1,19 @@
+@charset "Utf-8";
 
+/* Todas as demais mídias 
+    Pequenas telas até 480px
+   Tablet 481px a 768px
+   Desktop 769px até 1279px
+   Telas grandes acima de 1280px  */
 
-
-/*@media screen and (min-width: 576px) and (max-width: 900px) {
-@media print {
-}*/
+@media screen and (min-width: 568px) {
+    header > span#burquer {
+        display: none;
+    }
+    header > menu#itens > ul {
+        display: block;
+    }
+    header > menu#itens > ul > li {
+        display: inline-block;
+    }
+}
